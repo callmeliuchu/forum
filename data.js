@@ -1,0 +1,514 @@
+var data = {
+  "post_category_info": {
+    "1": [
+      "1"
+    ],
+    "2": [
+      "7",
+      "2"
+    ],
+    "3": [
+      "3",
+      "8",
+      "10"
+    ],
+    "4": [
+      "4"
+    ],
+    "5": [
+      "5",
+      "9"
+    ],
+    "6": [
+      "6"
+    ]
+  },
+  "posts_info": {
+    "104": [
+      {
+        "104": [
+          121,
+          149
+        ]
+      }
+    ],
+    "107": [
+      {
+        "107": [
+          122
+        ]
+      }
+    ],
+    "123": [
+      {
+        "123": [
+          135,
+          145
+        ]
+      }
+    ],
+    "134": [
+      {}
+    ],
+    "150": [
+      {
+        "150": [
+          151,
+          153,
+          154,
+          155,
+          156,
+          158
+        ]
+      },
+      {
+        "158": [
+          160,
+          162,
+          165,
+          166,
+          168
+        ]
+      },
+      {
+        "165": [
+          171,
+          175,
+          177,
+          187,
+          194,
+          199
+        ]
+      },
+      {
+        "199": [
+          201,
+          202,
+          203
+        ]
+      }
+    ]
+  },
+  "posts_detail": {
+    "104": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "硕士论文选题特点",
+      "content": "目前硕士论文选题的特点有：1.明确研究范围（高中、初中。。）2.明确研究方法（基于。。。）3.表明研究方法，理论研究（如教学模式相关）或者应用研究（以某某学校为例）4.在标题中明确了研究主题和研究内容",
+      "type": 1,
+      "parent_post_id": -1,
+      "up_vote": 1,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:31:33.215934+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "121": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "回复：王佳雯",
+      "content": "论文题目的写法说的很全面了，可能就是论文题目不会明确研究方法，但聪明（有经验）的人儿应该能从题目中大概知道研究方法。",
+      "type": 2,
+      "parent_post_id": 104,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:40:16.506934+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "149": {
+      "topic_id": 6,
+      "user_id": 23,
+      "title": "基于……不算是研究方法吧，一般是基于某种环境或是经典理论，可以叫做研究背景？？？",
+      "content": "？",
+      "type": 7,
+      "parent_post_id": 104,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:59:46.191082+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "107": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "学位论文特征",
+      "content": "通过阅读本下以往的现代教育技术专业硕 博士学位论文，发现论文主要特征有：\r\n1.教育教学资源的设计与应用，包括课程、微视频和教学平台等；\r\n2.创新教育的应用，如STEAM教育、创客教育；\r\n3.教师专业化发展；\r\n4.技术/软件对教学的影响",
+      "type": 1,
+      "parent_post_id": -1,
+      "up_vote": 1,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:33:09.649341+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "122": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "回复：曾嘉敏",
+      "content": "我觉得曾嘉敏同学总结得非常到位，总结了目前硕士论文的几种类型，如果能够涉及共同的标题特征就更好了。",
+      "type": 7,
+      "parent_post_id": 107,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:40:37.800424+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "123": {
+      "topic_id": 6,
+      "user_id": 23,
+      "title": "研究的主题大多数是对于教学设计的研究",
+      "content": "基于一种新技术，新媒体，新环境，新方法，设计出适合的教学模式，以促进学习为最终目的。",
+      "type": 1,
+      "parent_post_id": -1,
+      "up_vote": 2,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:41:18.460433+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "135": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "回复马佳叶",
+      "content": "马佳叶同学的观点简明扼要，硕士论文的选题要强调一个“新”字，我想补充的是这类教学模式的相关研究还有个特点就是一般需要经过实践证明，需要验证新的教学模式的教学效果。",
+      "type": 7,
+      "parent_post_id": 123,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:47:26.258176+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "145": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "回复 马佳叶",
+      "content": "张教授的文章也指出教育技术领域的研究重点是基于设计的研究，这也是能突出应用型论文的常见写法，总结简洁明了。",
+      "type": 7,
+      "parent_post_id": 123,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:57:00.783412+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "134": {
+      "topic_id": 6,
+      "user_id": 21,
+      "title": "现代教育技术学位论文特点",
+      "content": "1、新技术的应用研究  2、新的教学设计与实践   3、研究对象主要是教师、学生、课程、资源等",
+      "type": 1,
+      "parent_post_id": -1,
+      "up_vote": 1,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 02:46:19.892959+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "150": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "讨论",
+      "content": "大家来一起讨论一下硕士论文的选题吧，我觉得可以从特征、研究方法、研究主题等方向入手。",
+      "type": 1,
+      "parent_post_id": -1,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:00:25.199983+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "151": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "补充",
+      "content": "目前硕士论文选题的特点有：1.明确研究范围（高中、初中。。）2.明确研究方法（基于。。。）3.表明研究方法，理论研究（如教学模式相关）或者应用研究（以某某学校为例）4.在标题中明确了研究主题和研究内容",
+      "type": 7,
+      "parent_post_id": 150,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 1,
+      "date_created": "2019-03-07 03:01:25.609818+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "153": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "补充",
+      "content": "通过阅读本下以往的现代教育技术专业硕 博士学位论文，发现论文主要特征有： 1.教育教学资源的设计与应用，包括课程、微视频和教学平台等； 2.创新教育的应用，如STEAM教育、创客教育； 3.教师专业化发展； 4.技术/软件对教学的影响",
+      "type": 7,
+      "parent_post_id": 150,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:03:17.061819+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "154": {
+      "topic_id": 6,
+      "user_id": 21,
+      "title": "补充",
+      "content": "1、新技术的应用研究 2、新的教学设计与实践 3、研究对象主要是教师、学生、课程、资源等",
+      "type": 7,
+      "parent_post_id": 150,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:03:32.891791+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "155": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "新问题",
+      "content": "目前硕士论文选题的特点有：1.明确研究范围（高中、初中。。）2.明确研究方法（基于。。。）3.表明研究方法，理论研究（如教学模式相关）或者应用研究（以某某学校为例）4.在标题中明确了研究主题和研究内容",
+      "type": 4,
+      "parent_post_id": 150,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:04:32.928315+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "156": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "新问题",
+      "content": "通过阅读本下以往的现代教育技术专业硕 博士学位论文，发现论文主要特征有： 1.教育教学资源的设计与应用，包括课程、微视频和教学平台等； 2.创新教育的应用，如STEAM教育、创客教育； 3.教师专业化发展； 4.技术/软件对教学的影响",
+      "type": 4,
+      "parent_post_id": 150,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:04:44.085230+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "158": {
+      "topic_id": 6,
+      "user_id": 23,
+      "title": "学习科学手册提到教育技术研究的两个主题：学习媒体研究以及学习和教学设计的研究。主要在“设计”二字。",
+      "content": "。",
+      "type": 6,
+      "parent_post_id": 150,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:06:47.320621+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "160": {
+      "topic_id": 6,
+      "user_id": 23,
+      "title": "内容",
+      "content": "学习科学手册提到教育技术研究的两个主题：学习媒体研究以及学习和教学设计的研究。主要在“设计”二字。",
+      "type": 7,
+      "parent_post_id": 158,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:08:27.311437+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "162": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "马佳叶同学的观点简明扼要，硕士论文的选题要强调一个“新”字，我想补充的是这类教学模式的相关研究还有个特点就是一般需要经过实践证明，需要验证新的教学模式的教学效果。",
+      "content": "。",
+      "type": 7,
+      "parent_post_id": 158,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:08:51.165167+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "165": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "观点改进",
+      "content": "通过阅读本下以往的现代教育技术专业硕 博士学位论文，发现论文主要特征有： 1.教育教学资源的设计与应用，包括课程、微视频和教学平台等； 2.创新教育的应用，如STEAM教育、创客教育； 3.教师专业化发展； 4.技术/软件对教学的影响",
+      "type": 6,
+      "parent_post_id": 158,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:10:14.907840+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "166": {
+      "topic_id": 6,
+      "user_id": 23,
+      "title": "问题",
+      "content": "这里的设计包括哪些设计？",
+      "type": 4,
+      "parent_post_id": 158,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 1,
+      "date_created": "2019-03-07 03:10:39.838885+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "168": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "质疑",
+      "content": "有什么依据吗？能否列出几篇论文？",
+      "type": 5,
+      "parent_post_id": 158,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 1,
+      "date_created": "2019-03-07 03:10:53.267155+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "171": {
+      "topic_id": 6,
+      "user_id": 23,
+      "title": "反对",
+      "content": "你这个观点有点像是流水账",
+      "type": 5,
+      "parent_post_id": 165,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:13:02.087382+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "175": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "修改",
+      "content": "感觉这更像是对论文的分类哎。。",
+      "type": 7,
+      "parent_post_id": 165,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:14:27.407942+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "177": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "依据",
+      "content": "张教授的文章也指出教育技术领域的研究重点是基于设计的研究。",
+      "type": 3,
+      "parent_post_id": 165,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 1,
+      "date_created": "2019-03-07 03:15:36.292520+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "187": {
+      "topic_id": 6,
+      "user_id": 21,
+      "title": "补充",
+      "content": "也有关于现状调查和对策研究",
+      "type": 7,
+      "parent_post_id": 165,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 03:24:32.340633+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "194": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "补充",
+      "content": "根据大家之前的讨论，我认为我们可以从研究对象、研究方法、研究内容、理论指导这几个方面总结一下硕士论文选题的特征。",
+      "type": 7,
+      "parent_post_id": 165,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 05:18:34.803063+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "199": {
+      "topic_id": 6,
+      "user_id": 23,
+      "title": "总结",
+      "content": "老师上课提到，我们进行选题时要注重“新与旧”，考虑的维度包括视角，方法，问题。视角是指从一个理论角度进行问题的探讨，视角多半来自于教育学或是心理学理论。方法可以是研究的方法，比如观察法，实验法，文献研究法等。问题则是指文章研究的主题，通常是A对B的影响，这里的A是指工具，技术，教学模式等，B是指学生或是教师的某种状态或是能力，比如对于学生学习动机的研究。",
+      "type": 6,
+      "parent_post_id": 165,
+      "up_vote": 1,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 05:38:34.934188+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "201": {
+      "topic_id": 6,
+      "user_id": 16,
+      "title": "依据",
+      "content": "https://mubu.com/doc/6tlpqZm7BM这是我们小组上次讨论的结果，是按照研究方法、研究内容、研究对象三个角度进行归纳总结的，可以与此处的总结一一对应。",
+      "type": 3,
+      "parent_post_id": 199,
+      "up_vote": 1,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 05:49:01.906806+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "202": {
+      "topic_id": 6,
+      "user_id": 22,
+      "title": "补充",
+      "content": "马佳叶同学好认真，选题注意新与旧的搭配，视角、方法与问题这三大方面也是我们后期思考论文选题的重要依据。",
+      "type": 7,
+      "parent_post_id": 199,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 06:01:46.351724+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    },
+    "203": {
+      "topic_id": 6,
+      "user_id": 21,
+      "title": "补充",
+      "content": "佳叶考虑到老师提到的新老问题的视角维度和方法维度，总结得很全面了",
+      "type": 7,
+      "parent_post_id": 199,
+      "up_vote": 0,
+      "down_vote": 0,
+      "comments": 0,
+      "date_created": "2019-03-07 06:05:39.891088+00:00",
+      "date_modified": "None",
+      "modified_by": "None"
+    }
+  }
+}
