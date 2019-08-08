@@ -59,37 +59,32 @@
 	</script>
 </head>
 <body>
-	<div id="root">
+	<div class='table' id="root">
 		<!-- <post_list1 :items='["1223","1111"]'></post_list1> -->
       
-        <div v-for='i in [1,2,3]'>
-          <div v-for='item in items'>
+        <div  v-for='i in [1,2,3]'>
+          <div class='cell1' v-for='item in items'>
  		       <post  :content='"this is a post,and i wil post"'
 		       :title='"this is a title"'
 		       :comment='"this is the comment"'></post>   
           </div>
           
-          <div  v-for='item in items'>
+          <div class='cell2' v-for='item in items'>
  		       <post  :content='"this is a post,and i wil post"'
 		       :title='"this is a title"'
 		       :comment='"this is the comment"'></post>   
           </div>
 
-          <div  v-for='item in items'>
+          <div  class='cell3'  v-for='item in items'>
  		       <post  :content='"this is a post,and i wil post"'
 		       :title='"this is a title"'
 		       :comment='"this is the comment"'></post>   
           </div>
         <div>
-
-<!-- 		<post  :content='"this is a post,and i wil post"'
-		       :title='"this is a title"'
-		       :comment='"this is the comment"'></post>
- -->
 	</div>
 
 	
-	<div class="table">
+<!-- 	<div class="table">
 		<div class="row">
 			<div class="cell1">
 				<p>观点2</p>
@@ -105,7 +100,7 @@
 				<p>opinion 8</p>
 			</div>
 		   </div>
-   </div>
+   </div> -->
 
    <!-- <div id='post_list1'></div> -->
 
@@ -193,8 +188,8 @@
     		for(let post_id of post_list){
     			let type = this.posts_detail[post_id]['type']
     			let category = this.type2category_mapping.get(type.toString())
-    			if(map.has(post_id)){
-    				map[category].push([post_id,type])
+    			if(map.has(category)){
+    				map.get(category).push([post_id,type])
     			}else{
     				map.set(category,[[post_id,type]])
     			}
@@ -205,6 +200,25 @@
 
     tool = new DataTool(data)
     res = tool.parse()
+
+    for(let arr_1 of res){
+    	for(let arr of arr_1){
+	    	let post_id = arr[0]
+	    	console.log('belong to id  ' + post_id)
+	    	let map = arr[1]
+	    	for(let k of map.keys()){
+	    		let arr_2 = map.get(k)
+                for(let tmp_arr of arr_2){
+		    		let tmp_post_id = tmp_arr[0]
+		    		let type = tmp_arr[1]
+		    		console.log('category:' + k)
+		    		console.log(tmp_post_id+','+type)
+		    		console.log('++++++++++++')
+		    	}
+	    	}
+	    	console.log('----------------------')
+	    }
+    }
    </script>
 </body>
 </html>
